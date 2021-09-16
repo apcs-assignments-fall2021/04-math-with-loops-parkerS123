@@ -31,7 +31,7 @@ public class MyMain {
         }
         System.out.println("e is " + (numberE + 2));
 
-        return -1.0;
+        return (numberE + 2);
     }
 
     // Calculates the square root iteratively, using the Babylonian method
@@ -46,8 +46,7 @@ public class MyMain {
             n = m;
             // System.out.println(m);
         }
-        System.out.println(n);
-        return -1.0;
+        return n;
     }
     
     
@@ -57,14 +56,14 @@ public class MyMain {
         System.out.println("Enter a positive number ");
         int x = scan.nextInt();
 
-        factorial(x);
+        System.out.println(factorial(x));
 
         calculateE();
 
         System.out.println("Enter a number you would like the square root of :");
         double z = scan.nextDouble();
 
-        babylonian(z);
+        System.out.println(babylonian(z));
 
 
         
